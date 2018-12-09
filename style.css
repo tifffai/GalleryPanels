@@ -77,5 +77,6 @@ html {
   }
 
   .panel.open {
+    flex: 5; /* Flex of 5 means when it has a class of "open" it will take 5fr */
     font-size: 40px;
   }
